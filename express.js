@@ -29,7 +29,7 @@ app.get('/show',(req,res)=>{
     res.send('Exibe os clientes;');
 })
 //
-
+/// acrescetando alguns comentarios
 //Api
 app.use('/api', router)
 
