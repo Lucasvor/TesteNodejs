@@ -34,6 +34,9 @@ app.get('/show',(req,res)=>{
 app.get('/pp',(req,res)=>{
     res.send('Teste 123 bla blabla')
 })
+app.get('/ss',(req,res)=>{
+    res.send('ss bla bla bla asdasdas')
+})
 app.use('/api', router)
 
 app.listen(port, () => console.log('Executando na porta: '+port)) 
